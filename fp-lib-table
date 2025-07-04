@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SAM9X60-VDWB")(type "KiCad")(uri "${KIPRJMOD}/libs/SAM9X60-VDWB/SAM9X60-VDWB.pretty")(options "")(descr ""))
+  (lib (name "W9751G6NB-25")(type "KiCad")(uri "${KIPRJMOD}/libs/W9751G6NB-25/W9751G6NB-25.pretty")(options "")(descr ""))
+  (lib (name "TPS562201DDCT")(type "KiCad")(uri "${KIPRJMOD}/libs/TPS562201DDCT/TPS562201DDCT.pretty")(options "")(descr ""))
+)
