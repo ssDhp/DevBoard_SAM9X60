@@ -6237,6 +6237,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "VDDCORE: 1.1V\nVDDIOM: 1.8V\nVDDNF, VDDQSPI, VDDANA, VDDIN33, VDDIOP0, VDDIOP1, VDDBU: 3.3V"
+		(exclude_from_sim no)
+		(at 22.86 93.98 0)
+		(size 40.64 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "41038899-8b81-4c7c-98b9-ff459141c2ac")
+	)
 	(text_box "Vout = 0.768 * ( 1 + R1/R2)\n= 0.768 * (1 + 13.7k/10k) \n= 1.82V"
 		(exclude_from_sim no)
 		(at 91.44 133.35 0)
@@ -6297,7 +6317,7 @@
 		)
 		(uuid "bc05d03d-6e70-4c10-afbd-5a108c6b2ecf")
 	)
-	(text_box "Vout = 0.768 * ( 1 + R1/R2)\n= 0.768 * (1 + 5.1k/10k) \n= 1.16V"
+	(text_box "Vout = 0.768 * ( 1 + R1/R2)\n= 0.768 * (1 + 4.7k/10k) \n= 1.13V"
 		(exclude_from_sim no)
 		(at 91.44 81.28 0)
 		(size 31.75 8.89)
@@ -10369,7 +10389,7 @@
 		)
 		(uuid "fc8ca991-37e4-4df9-9c1c-2bcecd34c701")
 	)
-	(global_label "1.15V"
+	(global_label "1.1V"
 		(shape output)
 		(at 166.37 38.1 180)
 		(fields_autoplaced yes)
@@ -10381,7 +10401,7 @@
 		)
 		(uuid "1f002396-17f3-4c64-abd0-4a944bf39480")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.0629 38.1 0)
+			(at 159.2724 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10435,7 +10455,7 @@
 			)
 		)
 	)
-	(global_label "1.15V"
+	(global_label "1.1V"
 		(shape output)
 		(at 144.78 57.15 0)
 		(fields_autoplaced yes)
@@ -10447,7 +10467,7 @@
 		)
 		(uuid "536ecf0e-bf81-4236-8e70-36c69752ae42")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.0871 57.15 0)
+			(at 151.8776 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14434,7 +14454,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "4.7k"
 			(at 130.048 64.262 90)
 			(effects
 				(font
